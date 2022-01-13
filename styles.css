@@ -1,0 +1,323 @@
+body{
+    background-color: #FEECE9;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    color: #2F3A8F;
+}
+
+p{
+    width: 250px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    letter-spacing: 5px;
+
+
+}
+h3{
+    line-height: normal;
+    width: 300px;
+}
+
+
+.elephant{
+    width: 250px;
+    height: 250px;
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    width: 150px;
+    margin: 50px 150px 0 0;
+}
+
+
+nav{
+    
+    display: flex;
+    
+    margin: 0 150px
+    
+}
+
+nav .navi{
+    width:500px;
+    margin-left: 70%
+    
+}
+
+nav .navi a{
+    
+    text-decoration: none;
+    font-family: 'Montserrat','sans-serif';
+    color: #2F3A8F;
+    
+}
+
+nav .navi a{
+    transition: .2s;
+}
+
+nav .navi a:hover{
+    color: #072227;
+    font-weight: bolder;
+}
+
+hr{
+    
+    margin: 5px 0;
+    color: green;
+}
+
+
+/* button design */
+
+.btn{
+    margin-top: 70px;
+    font-family: 'Anton', sans-serif;
+    color: #FEECE9;
+    font-size: large;
+    border-radius: 5px;
+    background: none;
+    border-style: none;
+    border: 1px #FE7E6D solid;
+    padding: 15px 7px;
+    cursor: pointer;
+    background-color: #072227;
+    transition: .2s;
+    }
+    
+.btn:hover{
+    
+    padding: 20px 12px;
+}
+
+
+/* aboutCSS */
+
+.aboutsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.aboutcontent{
+    margin: 85px 0 0 150px;
+}
+
+.aboutlink{
+    text-decoration: none;
+    
+}
+
+.dog{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 75px;
+    
+}
+
+.aboutlink{
+    transition: .2s;
+}
+.aboutlink:hover{
+    color: #FE7E6D;
+    font-weight: bolder;
+}
+
+
+
+/* contactcss */
+
+.contactsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.contactsection h1{
+text-align: center;
+}
+
+.contactcontent a{
+    text-decoration: none;
+    color:#072227;
+    transition: .2s;
+    text-align: center;
+}
+
+.contactcontent a:hover{
+    color: #FE7E6D;
+    font-weight: bolder;
+}
+
+.contactli{
+    color: #FE7E6D;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.contactfb{
+    color: #FE7E6D;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 25px;
+
+}
+
+.contacthome{
+    color: #FE7E6D;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+
+
+
+
+
+/* media-query */
+
+
+
+@media (min-width: 821px){
+    .sec{
+        
+        display: flex;
+        flex-direction: row;
+        margin: 100px 150px;
+    }
+
+    .elephant{
+        width: 500px;
+        height: 500px;
+    }
+
+    .content{
+        margin: 130px 50px;
+    }
+
+    h1{
+        width: 500px;
+    }
+
+    h3{
+        line-height: 50px;
+    }
+
+    p{
+    width: 500px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    
+    }
+
+    
+
+    
+
+    nav .navi{
+        
+        margin-left: 70%;
+    }
+
+    /* about-media-query */
+    .aboutsection{
+        display: flex;
+        margin: 70px 40% 0 70px;
+        
+    }
+
+    .aboutcontent{
+        margin: 150px 0 0 150px;
+    }
+    
+    .aboutlink{
+        text-decoration: none;
+        
+    }
+    
+    .dog{
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        margin-left: 40%;
+    }
+
+
+    /* contactmediaquery */
+
+    .contactsection{
+        display: flex;
+       
+        margin-top: 15%;
+    }
+
+    
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+/* .contactsection{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.contactcontent a{
+    text-decoration: none;
+    color:#072227;
+    transition: .2s;
+}
+
+.contactcontent a:hover{
+    color: #FE7E6D;
+    font-weight: bolder;
+}
+
+.contactli{
+    color: #FE7E6D;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.contactfb{
+    color: #FE7E6D;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 25px;
+
+}
+
+.contacthome{
+    color: #FE7E6D;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 25px;
+} */
+
